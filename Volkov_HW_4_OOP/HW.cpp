@@ -13,8 +13,14 @@ public:
 		x = value_x;
 		y = value_y;
 	}
+
+	void Print() {
+		cout << "X = " << x << endl;
+		cout << "Y = " << y << endl;
+	}
 };
 
 int main() {
-
+	Point obj1(1,5);
+	obj1.Print();
 }
